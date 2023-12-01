@@ -11,7 +11,7 @@ cp user.service /etc/systemd/system/user.service
 systemctl daemon-reload
 systemctl enable user
 systemctl start user
-cp mongodb.repo /etc/yum.repos.d/mongo.repo
+cp mongo.repo /etc/yum.repos.d/mongo.repo
 dnf install mongodb-org-shell -y
 mongo --host MONGODB-SERVER-IPADDRESS </app/schema/user.js
 
