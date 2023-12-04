@@ -25,7 +25,7 @@ systemctl enable catalogue
 
 systemctl start catalogue
 
-cp mongo.repo /etc/yum.repos.d/mongo.repo
+cp /home/centos/roboshop-shell/mongo.repo /etc/yum.repos.d/mongo.repo
 
 dnf install mongodb-org-shell -y
 
