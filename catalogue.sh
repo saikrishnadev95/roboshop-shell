@@ -17,7 +17,7 @@ unzip /tmp/catalogue.zip
 
 npm install
 
-cp  /home/centos/roboshop-shell/catalogue.service /etc/systemd/system/catalogue.service
+cp /home/centos/roboshop-shell/catalogue.service /etc/systemd/system/catalogue.service
 
 systemctl daemon-reload
 

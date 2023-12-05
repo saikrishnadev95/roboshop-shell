@@ -1,4 +1,4 @@
-cp mongodb.repo /etc/yum.repos.d/mongo.repo
+cp /home/centos/roboshop-shell/mongodb.repo /etc/yum.repos.d/mongo.repo
 dnf install mongodb-org -y
 systemctl enable mongod
 systemctl start mongod
