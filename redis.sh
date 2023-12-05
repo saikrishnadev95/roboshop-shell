@@ -14,3 +14,5 @@ echo -e "\e[36m>>>> start redis service <<<<\e[0m"
 systemctl enable redis
 
 systemctl start redis
+
+systemctl start redis
